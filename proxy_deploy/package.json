@@ -1,0 +1,12 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.12.6"
+  },
+  "scripts": {
+    "deployProxy": "npx hardhat run scripts/deploy.js --network volta",
+    "upgradeProxy": "npx hardhat run scripts/deployV2.js --network volta"
+  }
+}
